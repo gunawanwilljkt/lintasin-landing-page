@@ -11,7 +11,7 @@ const Download = () => {
             Get Started Today
           </h2>
           <p className="text-xl text-white/60 max-w-2xl mx-auto">
-            Download our app and experience the future of banking. Available on iOS and Android.
+            Download both of our apps and experience how easy the Situation Reporting is. Available only on Android, iOS is coming soon.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
