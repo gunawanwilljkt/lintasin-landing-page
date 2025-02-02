@@ -44,7 +44,7 @@ const Hero = () => {
         <div className="relative">
           <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
             <img 
-              src="/lovable-uploads/acee8818-541f-4d6a-8650-8af2f335b0e5.png"
+              src="/lovable-uploads/hero image.png"
               alt="People using mobile phones to report situations in real-time"
               className="w-full h-auto"
             />
