@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Apple } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Download = () => {
@@ -15,10 +14,6 @@ const Download = () => {
             Download our app and experience the future of banking. Available on iOS and Android.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button className="px-8 py-6 text-lg bg-white text-black hover:bg-white/90 flex items-center gap-2">
-              <Apple className="w-5 h-5" />
-              App Store
-            </Button>
             <a 
               href="https://play.google.com/store/apps/details?id=com.lintasin" 
               target="_blank" 
