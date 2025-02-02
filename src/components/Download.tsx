@@ -29,17 +29,17 @@ const Download = () => {
               </Button>
             </a>
             <a 
-              href="https://play.google.com/store/apps/details?id=com.lintasin" 
+              href="https://play.google.com/store/apps/details?id=com.lintasin.monitor" 
               target="_blank" 
               rel="noopener noreferrer"
             >
               <Button className="px-8 py-6 text-lg glass-effect hover:bg-white/10 flex items-center gap-2">
                 <img 
-                  src="/lovable-uploads/8e8e1257-8a5a-4823-a032-a0bf33274e52.png" 
-                  alt="Lintasin Logo" 
+                  src="/lovable-uploads/4b78779f-28e4-4f6d-90b4-602e016a1372.png" 
+                  alt="Lintasin Monitoring Logo" 
                   className="w-5 h-5"
                 />
-                Lintasin FirstHand
+                Lintasin Monitoring
               </Button>
             </a>
           </div>
