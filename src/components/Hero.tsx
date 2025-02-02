@@ -10,7 +10,7 @@ const Hero = () => {
             Situation Reporting is Real Time with Location
           </h1>
           <p className="text-lg text-white/80 max-w-xl">
-            Financial services, including P2P payments, balance check and top-ups - are now available from any mobile app, including all messaging ones.
+            In every situation, you can now use our app to livestream and share the location, in order to get quicker response on where the situation is located and as real time as possible.
           </p>
           <Button className="px-8 py-6 text-lg bg-white text-black hover:bg-white/90 flex items-center gap-2">
             <Download className="w-5 h-5" />
