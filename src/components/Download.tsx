@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
-import { Apple, Play } from "lucide-react";
+import { Apple } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Download = () => {
   return (
@@ -18,10 +19,20 @@ const Download = () => {
               <Apple className="w-5 h-5" />
               App Store
             </Button>
-            <Button className="px-8 py-6 text-lg glass-effect hover:bg-white/10 flex items-center gap-2">
-              <Play className="w-5 h-5" />
-              Play Store
-            </Button>
+            <a 
+              href="https://play.google.com/store/apps/details?id=com.lintasin" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Button className="px-8 py-6 text-lg glass-effect hover:bg-white/10 flex items-center gap-2">
+                <img 
+                  src="/lovable-uploads/8e8e1257-8a5a-4823-a032-a0bf33274e52.png" 
+                  alt="Lintasin Logo" 
+                  className="w-5 h-5"
+                />
+                Lintasin FirstHand
+              </Button>
+            </a>
           </div>
         </div>
       </div>
