@@ -58,7 +58,7 @@ const Footer = () => {
         
         <div className="mt-12 pt-8 border-t border-white/10">
           <p className="text-center text-white/60">
-            © 2024 Cardo. All rights reserved.
+            © 2025 PT Lintas Indo Nusa. All rights reserved.
           </p>
         </div>
       </div>
