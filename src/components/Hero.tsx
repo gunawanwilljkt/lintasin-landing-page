@@ -2,6 +2,13 @@ import { Button } from "@/components/ui/button";
 import { Download } from "lucide-react";
 
 const Hero = () => {
+  const scrollToDownload = () => {
+    const downloadSection = document.getElementById('download-section');
+    if (downloadSection) {
+      downloadSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center px-4 pt-20 bg-background">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -12,7 +19,10 @@ const Hero = () => {
           <p className="text-lg text-white/80 max-w-xl">
             In every situation, you can now use our app to livestream and share the location, in order to get quicker response on where the situation is located and as real time as possible.
           </p>
-          <Button className="px-8 py-6 text-lg bg-white text-black hover:bg-white/90 flex items-center gap-2">
+          <Button 
+            onClick={scrollToDownload}
+            className="px-8 py-6 text-lg bg-white text-black hover:bg-white/90 flex items-center gap-2"
+          >
             <Download className="w-5 h-5" />
             Download Application
           </Button>
