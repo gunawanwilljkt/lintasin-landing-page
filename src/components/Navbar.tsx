@@ -1,22 +1,27 @@
 import { Button } from "@/components/ui/button";
-import { LogIn } from "lucide-react";
+import { Menu } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 bg-background/80 backdrop-blur-lg">
-      <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <div className="text-2xl font-bold text-white">Cardo</div>
-        <div className="hidden md:flex items-center space-x-8">
-          <a href="#" className="text-white/80 hover:text-white transition-colors">Deposit</a>
-          <a href="#" className="text-white/80 hover:text-white transition-colors">Dashboard</a>
-          <a href="#" className="text-white/80 hover:text-white transition-colors">Company</a>
-          <a href="#" className="text-white/80 hover:text-white transition-colors">Pricing</a>
-          <Button variant="outline" className="text-white border-white/20 hover:bg-white/10">
-            Open your account
-          </Button>
-          <Button className="bg-[#F2FF44] text-black hover:bg-[#E2EF34]">
-            Sign in
-            <LogIn className="w-4 h-4 ml-2" />
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-white/10">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-16">
+          <div className="flex items-center gap-2">
+            <img 
+              src="/lovable-uploads/cb148134-b1dc-45ec-9747-c44053c13cf1.png" 
+              alt="Lintasin Logo" 
+              className="h-8 w-8"
+            />
+            <span className="text-2xl font-bold text-white">Lintasin</span>
+          </div>
+          <div className="hidden md:flex items-center gap-8">
+            <Button variant="link" className="text-white">Features</Button>
+            <Button variant="link" className="text-white">Pricing</Button>
+            <Button variant="link" className="text-white">About</Button>
+            <Button variant="link" className="text-white">Contact</Button>
+          </div>
+          <Button variant="ghost" size="icon" className="md:hidden">
+            <Menu className="h-6 w-6 text-white" />
           </Button>
         </div>
       </div>
